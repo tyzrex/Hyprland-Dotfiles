@@ -152,7 +152,8 @@
   },
 
   "custom/appmenuicon": {
-    "format": "",
+    "format": "",
+    "icon-size": 50,
     "on-click": "rofi -show drun -replace",
     "on-click-right": "~/dotfiles/hypr/scripts/keybindings.sh",
     "tooltip": false
@@ -268,6 +269,7 @@
     },
     "format": "{icon}   {capacity}%",
     "format-charging": "  {capacity}%",
+    "icon-size": 40,
     "format-plugged": "  {capacity}%",
     "format-alt": "{icon}  {time}",
     "format-good": "",

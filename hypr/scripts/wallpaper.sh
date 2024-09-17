@@ -167,5 +167,6 @@ else
 fi
 
 exec $HOME/dotfiles/hypr/scripts/spotifytheme.sh &
+exec $HOME/.config/.settings/zathura-pywal.sh &
 
 echo "DONE!"
